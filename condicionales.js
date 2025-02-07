@@ -59,3 +59,31 @@ if (creditos >= 10 && promedio >= 8.5){
 }
 //Agregar el mensaje de te hace falta creditos
 //Agregar el mensaje de tu promedio debe subir
+
+//Practica 2: Evaluador de Notas con Mensaje
+
+/*Crea un programa en JavaScript que evalúe la nota de un estudiante 
+y genere un mensaje personalizado basado en la nota. Las notas se asignan de la siguiente manera:
+Si la nota es 90 o más, el estudiante aprueba con "Excelente".
+Si la nota está entre 75 y 89, el estudiante aprueba con "Bien".
+Si la nota está entre 60 y 74, el estudiante aprueba con "Suficiente".
+Si la nota es menor de 60, el estudiante no aprueba. */
+
+console.log("Practica 2: Evaluador de Notas con Mensaje");
+
+let nota = 67;//Se ingresa la nota del estudiante a evaluar
+
+//Si la nota es negativa la convertimos en cero
+if(nota < 0){
+   nota = 0;
+}
+
+if(nota >= 90){
+    console.log("El estudiante aprueba con Excelente");
+}else if(nota >= 75){
+    console.log("El estudiante aprueba con Bien");
+}else if(nota >= 60){
+    console.log("El estudiante aprueba con Suficiente");
+}else{
+    console.log("Lamentablemente, el estudiante no aprueba");
+}
