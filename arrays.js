@@ -28,3 +28,6 @@ console.log(personas);
 
 personas.shift(); //Elimina el primero
 console.log(personas);
+
+personas[1] = "Mónica"; //Modificando lo que esta en i=1
+console.log(personas);
