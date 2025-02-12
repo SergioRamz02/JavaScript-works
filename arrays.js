@@ -31,3 +31,36 @@ console.log(personas);
 
 personas[1] = "Mónica"; //Modificando lo que esta en i=1
 console.log(personas);
+
+//Practica 3: Clasificación de frutas
+console.log("Practica 3: Clasificación de frutas");
+
+let frutas = ["manzana", "naranja", "uva","uva"]; //Arreglo de frutas
+
+frutas.push("manzana"); //Agregando elemento al arreglo
+frutas.push("manzana");
+frutas.push("manzana");
+frutas.push("manzana");
+frutas.push("naranja");
+frutas.push("naranja");
+frutas.push("naranja");
+frutas.push("uva");
+frutas.push("uva");
+
+let manzana =0; //Inicializando el contador de manzana
+let naranja =0; //Inicializando el contador de naranja
+let uva =0; //Inicializando el contador de uva
+
+for(let i=0; i<frutas.length; i++){
+    if(frutas[i] === "manzana"){
+        manzana++;
+    }else if(frutas[i] === "naranja"){
+        naranja++;
+    }
+    else if(frutas[i] === "uva"){
+        uva++;
+    }
+}
+console.log("Cantidad de manzanas:" + manzana);
+console.log("Cantidad de naranjas:" + naranja);
+console.log("Cantidad de uvas:" + uva);
