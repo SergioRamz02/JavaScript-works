@@ -87,4 +87,10 @@ console.log(librosLeidos);
 //Mostrando la lista
 mostrarLibros();
 
+var i;
+var x=0;
+for(i<0;i<10;i++){
+    x++;
+}
+
 
