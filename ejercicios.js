@@ -33,7 +33,7 @@ console.log(`El área de un circulo de diametro 4 es: ${areaDelCirculod(4)}`);
 
 function CelsiusAFarenheit (celsius){
     let conversion = celsius * (9/5) + 32;
-    return conversion
+    return conversion;
 }
 console.log(`La temperatura de 15°C a °F es: ${CelsiusAFarenheit(15)}`);
 
@@ -47,3 +47,30 @@ function ParoImpar(a){
     }
 }
 console.log(`El número 100 es un número ${ParoImpar(100)}, mientras el número 21 es ${ParoImpar(21)}`);
+
+//Estructura de Funciones de Flecha
+
+//1) Areas de Fíguras
+
+let areaDelTriangulo2 = (a,h) => (a*h)/2;
+
+let areaDelRectangulo2 = (a,h) => a * h;
+
+let areaDelCirculor2 = (r) => Math.PI * r*r;
+   
+
+let areaDelCirculod2 = (d) => Math.PI * d*d/4;
+
+// 2) Grados Celsius a Farenheit
+
+let CelsiusAFarenheit2 = (celsius) => (celsius * 9/5) + 32;
+
+// 3) Funcion par o impar
+
+let ParOImpar2 = (a) => {
+    if (a % 2 === 0){
+        return "par";
+    }else {
+        return "impar";
+    }
+}
