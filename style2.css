@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+.controles{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+#pass_gen{
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
